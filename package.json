@@ -1,34 +1,28 @@
 {
-  "name": "slack-spoiler-alert",
-  "version": "0.0.1",
-  "description": "-",
-  "main": "server.js",
+  "name": "node-slack-bot",
+  "version": "1.0.0",
+  "description": "A sample Beep Boop Node.js Slackbot",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/server.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/emreSerbetcioglu/slack-spoiler-alert.git"
+    "url": "git+https://github.com/joshvote/slack-spoiler-command.git"
   },
   "keywords": [
-    "slack",
-    "app",
-    "slash",
-    "command",
-    "movies",
-    "spoiler"
+    "slackbot",
+    "bot",
+    "slack"
   ],
-  "author": "Emre Serbetcioglu",
+  "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/emreSerbetcioglu/slack-spoiler-alert/issues"
+    "url": "https://github.com/joshvote/slack-spoiler-command/issues"
   },
-  "homepage": "https://github.com/emreSerbetcioglu/slack-spoiler-alert#readme",
+  "homepage": "https://github.com/joshvote/slack-spoiler-command#readme",
   "dependencies": {
-    "body-parser": "^1.17.2",
-    "express": "^4.15.3",
-    "request": "^2.81.0",
-    "request-promise-native": ""
+    "beepboop-botkit": "^1.4.1",
+    "botkit": "~0.2.2"
   }
 }
