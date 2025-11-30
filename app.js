@@ -1,15 +1,6 @@
 const Express = require('express')
 const bodyParser = require('body-parser')
-const commandParser = (commandText) => {
-  let receivedCommand = {
-      movie : "",
-      spoiler : ""
-  };
-  receivedCommand.movie = commandText.split(',')[0].replace('"','');
-  receivedCommand.spoiler = commandText.split(',')[1].replace('"','');
-
-  return receivedCommand;
-}
+const commandParser = require('./commandParser')
 
 const app = new Express()
 app.use(bodyParser.urlencoded({
